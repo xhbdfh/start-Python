@@ -27,6 +27,7 @@ if not os.path.exists(target_dir):
     os.mkdir(target_dir) # 创建目录
 
 # 5.我们使用zip命令将文件打包成zip格式
+# zip下载：http://gnuwin32.sourceforge.net/packages/zip.htm
 zip_command = 'zip -r {0} {1}'.format(target,
                                       ' '.join(source))
 
