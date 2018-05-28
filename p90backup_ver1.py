@@ -6,12 +6,10 @@ import time
 source = ['C:\\Users\liyue\Downloads']
 # 又例如在Mac OS X 与 Linux 下：
 # source = ['/Users/swa/notes']
-# 在这里要注意到我们必须在字符中使用双引号
-# 用以括起其中包含空格的名称。
+# 在这里要注意到我们必须在字符中使用双引号。用以括起其中包含空格的名称。
 
 # 2.备份文件必须存储在一个
-# 主备份目录中
-# 例如在windows下：（以下目录如果不存在，会自动创建）
+# 主备份目录中。例如在windows下：（以下目录如果不存在，会自动创建）
 target_dir = 'F:\\FTP'
 # 又例如在Mac OS X 和 Linux 下：
 # target_dir = '/Users/swa/backup'
@@ -26,8 +24,7 @@ target = target_dir + os.sep + \
 if not os.path.exists(target_dir):
     os.mkdir(target_dir) # 创建目录
 
-# 5.我们使用zip命令将文件打包成zip格式
-# zip下载：http://gnuwin32.sourceforge.net/packages/zip.htm
+# 5.我们使用zip命令将文件打包成zip格式。 zip下载：http://gnuwin32.sourceforge.net/packages/zip.htm
 zip_command = 'zip -r {0} {1}'.format(target,
                                       ' '.join(source))
 
