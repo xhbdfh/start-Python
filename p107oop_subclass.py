@@ -1,5 +1,4 @@
 
-
 class SchoolMember:
     '''代表任何学校里的成员。'''
     def __init__(self,name,age):
@@ -9,7 +8,7 @@ class SchoolMember:
 
     def tell(self):
         '''告诉我有关我的细节。'''
-        print('Name:"{}".Age:"{}"'.format(self.name,self.age),end=" ")
+        print('Name:"{}" Age:"{}"'.format(self.name,self.age),end=" ")
 
 class Teacher(SchoolMember):
     '''代表一位老师。'''
