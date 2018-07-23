@@ -1,6 +1,6 @@
 # start-Python
 
-- 《简单Python教程》中的代码 
+- 《简明Python教程》中的代码 
 
 - 在线阅读：
 
